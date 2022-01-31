@@ -1,4 +1,4 @@
-// Subscribe to websockets
+// Subscribe to websockets using key from https://www.cryptocompare.com/
 // this is where you paste your api key
 let apiKey = "";
 const WebSocket = require("ws");
