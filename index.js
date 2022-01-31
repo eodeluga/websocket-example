@@ -1,6 +1,6 @@
 // Subscribe to websockets
 // this is where you paste your api key
-let apiKey = "6a30265e62d67b637acf1c58e27b77b0ff3757b40f17ed310aff018b8f8e0471";
+let apiKey = "";
 const WebSocket = require("ws");
 const ccStreamer = new WebSocket(
   "wss://streamer.cryptocompare.com/v2?api_key=" + apiKey
